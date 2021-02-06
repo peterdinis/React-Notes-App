@@ -1,0 +1,70 @@
+.notes__site {
+    margin-top: 15rem !important;
+    text-align: center;
+}
+
+.box {
+    position: absolute;
+    cursor: move;
+    color: black;
+    max-width: 220px;
+    overflow-wrap: break-word;
+    border-radius: 8px;
+    padding: 1.2em;
+    margin: auto;
+    user-select: none;
+  }
+  
+  body {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25em;
+    color: white;
+  }
+  
+  #new-item {
+    user-select: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  input {
+    border-radius: 4px 0px 0px 4px !important;
+    color: #333;
+    font-size: 1.3em !important;
+    background-color: transparent !important;
+    padding: 0.5em !important;
+    margin-left: 5px !important;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+
+  input::placeholder{
+      font-size: 1.2rem !important;
+      color: #333;
+  }
+  
+  .edit-note {
+    cursor: pointer;
+    background-color: #006699 !important;
+    color: #eee !important;
+    font-size: 1rem !important;
+    border-radius: 8px !important;
+    margin-left: 1rem !important;
+  }
+
+  #delete {
+    font-size: 0.6em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+  }
+  

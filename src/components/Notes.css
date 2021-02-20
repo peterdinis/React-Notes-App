@@ -47,7 +47,7 @@
 
   input::placeholder{
       font-size: 1.2rem !important;
-      color: #333;
+      color: #333 !important;
   }
   
   .edit-note {
@@ -68,3 +68,19 @@
     border: none;
   }
   
+
+@media(max-width: 720px) {
+  .edit-note {
+    margin-top: 3rem !important;
+  }
+}
+
+@media(max-width: 411px) {
+  .edit-note {
+    margin-top: 1rem !important;
+  }
+
+  .notes__input {
+    width: 105% !important;
+  }
+}

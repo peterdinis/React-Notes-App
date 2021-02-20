@@ -13,7 +13,7 @@ function Notes() {
       JSON.parse(localStorage.getItem("items")) || []
     );
     
-    const errNotify = () => toast("Treba niečo napísať! prázdnu poznámku systém nezoberie");
+    const errNotify = () => toast.error("Treba niečo napísať! prázdnu poznámku systém nezoberie");
 
     const newitem = () => {
       if (item.trim() !== "") {
